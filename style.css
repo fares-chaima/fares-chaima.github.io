@@ -1,0 +1,852 @@
+.myDiv {
+    width: 1000px;
+    height: 600px;
+    background-color:#d6ea9c;
+}
+p.fr{
+  opacity: 0;
+  font-size:0.1px;
+}
+  header{
+    width: 700px;
+    height: 60px;
+  background-color:#d6ea9c;
+ 
+  }
+
+
+
+
+  a.adress{
+    float: left;
+    margin-top: 15px;
+    font-size: 18px;
+    margin-right: 25px;
+    color: #000;
+    font-style: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+
+
+  div.log{
+    width:350px;
+    height: 60px;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+  }
+  div.nav{
+    width: 350px;
+    height: 60px;
+  
+    float: left;
+  }
+  div.n{
+    width: 2px;
+    opacity: 0;
+  }
+  h1.log{
+    font-size: 30px;
+    margin-left: 120px;
+
+  }
+  div.ne{
+    width: 2px;
+    opacity: 0;
+    height: 14px;
+  }
+  body{
+    background-color:#d6ea9c;
+  }
+
+
+  div.one{
+width: 450px;
+height: 600px;
+background-color:transparent;
+float: left;
+  }
+  div.two{
+    width: 550px;
+    height: 600px;
+    background-image: url(flour.PNG);
+    background-size:500px 550px;
+    background-repeat: no-repeat;
+    float: left;
+    Animation-name : flo;
+    Animation-delay : 0s ;
+    Animation-duration : 3s ;
+    Animation-iteration-count :1 ;
+  }
+
+  div.t{
+width: 280px;
+height: 400px;
+float: right;
+background-color:transparent;
+margin-top: 5.3cm;
+clip-path: polygon(38% 0, 99% 0, 100% 100%, 0% 100%);
+  }
+  div.tw{
+    width: 200px;
+    height: 350px;
+    float: right;
+    margin-top: 0.3cm;
+    background-color:transparent;
+    transform: rotate(29deg);
+   
+  }
+  
+  img.cv{
+    
+    border-radius: 1cm;
+    Animation-name : sq;
+    Animation-delay : 0s ;
+    Animation-duration : 3s ;
+    Animation-iteration-count :1 ;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);}
+
+
+  img.cva{
+   transform: rotate(14.2deg);
+    margin-left: 1.5cm; 
+  margin-top: -1.5cm;
+    Animation-name : squ ;
+    Animation-delay : 0s ;
+    Animation-duration : 3s ;
+    Animation-iteration-count :1 ;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 0.5cm;
+  }
+
+
+
+
+  @keyframes sq{
+    0% {
+        
+      margin-top: 6cm;
+    }
+    
+        100% {
+          margin-top: 0cm;
+            }
+        
+}
+
+
+
+@keyframes squ{
+  0% {
+      
+    margin-top: 3cm;
+    transform: rotate(0deg);
+  }
+
+      100% {
+        transform: rotate(14.2deg);
+        margin-top:-1.5cm;
+          }
+      
+}
+
+
+
+
+@keyframes flo{
+      
+   
+ 
+0%{
+  background-size: 0px 0px;
+}
+      100% {
+        background-size: 500px 550px;
+          }
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1.he{
+  margin-top: 3cm;
+  margin-left: 120px;
+  color: #000;
+  font-size: 35px;
+  font-style: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span.he{
+
+  color: #82954b;}
+  p.he{
+    margin-top: 0.2cm;
+    margin-left: 120px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+
+
+  div.bla{
+    width: 310px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2cm;
+    margin-left: 120px;
+    border-radius: 0.2cm;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);}
+    h1.em{
+      float: left;
+      font-size: 15px;
+      color: #555454;
+      margin-left: 0.3cm;
+      margin-top: 0.5cm;
+    }
+    button.val{
+      border-radius: 0.2cm;
+      float: right;
+      width: 70px;
+      height: 55px;
+      color: #ffffff;
+      background-color: rgb(249, 60, 2);
+      margin-top: 2.5px;
+      font-size: 17px;
+      border-color:  rgb(249, 60, 2);
+      margin-right: 2px;
+    }
+
+
+
+    div.ttl{
+      width: 1000px;
+      height:600px ;
+      background-color: rgb(255, 255, 255);
+    }
+
+
+
+    h1.ds{
+      font-size: 40px;
+      color: #000;
+      margin-left: 300px;
+      font-style: normal;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-top: 1cm;
+    }
+    p.ds{
+      font-size: 23px;
+      color: #000;
+      margin-left:0px;
+      text-align: center;
+      font-style: normal;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-top: 0.3cm;
+    }
+
+
+
+    div.nm{
+      width: 1000px;
+      height: 400px;
+      background-color: #ffffff;
+    }
+
+
+    div.a{
+      width: 340px;
+      height: 200px;
+      background-color: #ffffff;
+      float: left;
+    }
+    div.b{
+      width: 310px;
+      height: 200px;
+      background-color: #ffffff;
+      float: left;
+    }
+    div.c{
+      width: 320px;
+      height: 200px;
+      background-color: #ffffff;
+      float: left;
+    }
+    div.d{
+      width: 340px;
+      height: 200px;
+      background-color: #ffffff;
+      float: left;
+    }
+    div.e{
+      width: 310px;
+      height: 200px;
+      background-color: #ffffff;
+      float: left;
+    }
+    div.f{
+      width: 320px;
+      height: 200px;
+      background-color: #ffffff;
+      float: left;
+    }
+
+    img.aa{
+      margin-left:200px ;
+    }
+    img.bb{
+      margin-left:110px ;
+    }
+    img.cc{
+      margin-left:130px ;
+    }
+    img.dd{
+      margin-left:200px ;
+    }
+    img.ee{
+      margin-left:110px ;
+    }
+    img.ff{
+      margin-left:130px ;
+    }
+
+
+
+
+    h1.a{
+      font-size: 25px;
+      margin-left: 120px;
+    }
+    h1.b{
+      font-size: 25px;
+      margin-left: 54px;
+    }
+    h1.c{
+      font-size: 25px;
+      margin-left: 54px;
+    }
+    h1.d{
+      font-size: 25px;
+      margin-left: 105px;
+      text-align: center;
+    }
+
+    h1.e{
+      font-size: 25px;
+      margin-left: 20px;
+    }
+    h1.f{
+      font-size: 25px;
+      margin-left: 54px;
+    }
+
+    p.a{
+      font-size: 16px;
+      margin-left: 114px;
+      text-align: center;
+    }
+    p.b{
+      font-size: 16px;
+    margin-right:1.2cm;
+      text-align: center;
+    }
+    p.d{
+      font-size: 16px;
+  
+      text-align: center;
+    }
+    p.e{
+      font-size: 16px;
+  margin-right: 1cm;
+      text-align: center;
+    }
+    
+    p.f{
+      font-size: 16px;
+  
+      text-align: center;
+    }
+    
+
+
+    .aa.animate{
+      Animation-name : aa ;
+      Animation-delay : 0s ;
+      Animation-duration : 3s ;
+      Animation-iteration-count : 1 ;
+    }
+    .bb.animate{
+      Animation-name : aa ;
+      Animation-delay : 0s ;
+      Animation-duration : 3s ;
+      Animation-iteration-count : 1 ;
+    }
+    .cc.animate{
+      Animation-name : aa ;
+      Animation-delay : 0s ;
+      Animation-duration : 3s ;
+      Animation-iteration-count : 1 ;
+    }
+    .ee.animate{
+      Animation-name : aa ;
+      Animation-delay : 0s ;
+      Animation-duration : 3s ;
+      Animation-iteration-count : 1 ;
+    }
+    .ff.animate{
+      Animation-name : aa ;
+      Animation-delay : 0s ;
+      Animation-duration : 3s ;
+      Animation-iteration-count : 1 ;
+    }
+    .dd.animate{
+      Animation-name : aa ;
+      Animation-delay : 0s ;
+      Animation-duration : 3s ;
+      Animation-iteration-count : 1 ;
+    }
+    
+
+    @keyframes aa {
+      0% {
+        margin-left: 0px;
+      }
+      100% {
+        margin-left: 200px;
+        transform: rotate(360deg);
+      }}  
+
+
+      div.stre{
+        width: 1000px;
+        height: 600px;
+        background-color: rgb(255, 255, 255);
+      }
+
+
+      div.mama{
+        background-image: url(oval.PNG);
+        background-repeat: no-repeat;
+        background-size: 400px 400px;
+        width: 500px;
+        height: 600px;
+        background-position: 100px 150px;
+        float: left;
+      }
+      div.kj{
+        width: 500px;
+        height: 600px;
+       float: right;
+        background-color: rgb(255, 255, 255);
+      }
+
+      div.yak{
+        width: 400px;
+        height: 400px;
+        background-image: url(oval.PNG);
+        background-repeat: no-repeat;
+        background-size:400px 400px ;
+        margin-left: 100px;
+        margin-top: 150px;
+        clip-path: polygon(0 0, 99% 0, 100% 100%, 0% 100%);
+      }
+      div.entrer{
+        width: 500px;
+        height: 450px;
+        background-color:transparent;
+    
+        clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 0 0);
+
+      }
+      img.helo{
+        margin-left: 5.5cm;
+        margin-top: 5cm;
+        border-radius: 0.5cm;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .helo.animat{
+        Animation-name : helo ;
+        Animation-delay : 0s ;
+        Animation-duration : 3s ;
+        Animation-iteration-count : 1 ;
+      }
+
+
+      @keyframes helo {
+        0% {
+          margin-left: 0px;
+          margin-top: 0px;
+          transform: rotate(-180deg);
+        }
+        100% {
+          margin-left:5.5cm;
+         
+        }}
+
+
+
+
+        button.kho{
+          height: 40px;
+          width: 140px;
+          background-color: rgb(249, 60, 2);
+          color: #ffffff;
+          border-radius: 0.5cm;
+          border-color: rgb(249, 60, 2) ;
+          font-size: 16px;
+          margin-top: 5.5cm;
+          margin-left: 1cm;
+        }
+        h1.kho{
+          font-style: normal;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+      margin-left: 1cm;
+        }
+        p.kho{
+          margin-left: 1cm;
+          font-style: normal;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 16px;
+        }
+        img.kho{
+          margin-left: 1cm;
+        }
+
+
+
+
+
+        div.papa{
+          margin-top: 3cm;
+          width: 1000px;
+          height: 700px;
+          background-color: #ffffff;
+        }
+
+
+        div.hoda{
+width: 500px;
+height: 700px;
+background-color: #ffffff;
+float: left;
+        }
+        div.doha{
+          width: 500px;
+          height: 700px;
+          background-image: url(sdfg.PNG);
+          background-repeat:no-repeat;
+          background-size: 400px 400px;
+          float: right;
+          background-position: 70px 250px ;
+        }
+
+        img.joz{
+          border-radius: 0.5cm;
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);margin-left: 1cm;
+        }
+        img.jozif{
+          border-radius: 0.5cm;
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+          float: right;
+          margin-top: -5.5cm;
+         
+          
+        }
+        img.joziff{
+          border-radius: 0.5cm;
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+          float: right;
+          margin-top: 2.5cm;
+         margin-right: -4cm;
+          
+        }
+        img.jozifff{
+          border-radius: 0.5cm;
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+          
+          margin-top: 1cm;
+         margin-left: 2cm;
+          
+        }
+
+
+
+
+
+        .joz.animat{
+          Animation-name : joz ;
+          Animation-delay : 0s ;
+          Animation-duration : 3s ;
+          Animation-iteration-count : 1 ;
+        }
+  
+  
+        @keyframes joz {
+          0% {
+            margin-left: -5cm;
+           
+            transform: rotate(-180deg);
+          }
+          100% {
+            margin-left:0cm;
+           
+          }}
+
+
+
+
+
+
+
+
+
+          .jozifff.animat{
+            Animation-name : joza ;
+            Animation-delay : 0s ;
+            Animation-duration : 3s ;
+            Animation-iteration-count : 1 ;
+          }
+    
+    
+          @keyframes joza {
+            0% {
+              margin-left: -5cm;
+             margin-top: 5cm;
+             
+            }
+            100% {
+              margin-left:0cm;
+             
+            }}
+  
+
+
+            .joziff.animat{
+              Animation-name : jozaj ;
+              Animation-delay : 0s ;
+              Animation-duration : 3s ;
+              Animation-iteration-count : 1 ;
+            }
+      
+      
+            @keyframes jozaj {
+              0% {
+                margin-right: 5cm;
+               margin-top: 5cm;
+               
+              }
+              100% {
+                margin-left:0cm;
+               
+              }}
+    
+
+
+
+
+              .jozif.animat{
+                Animation-name : jozaja ;
+                Animation-delay : 0s ;
+                Animation-duration : 3s ;
+                Animation-iteration-count : 1 ;
+              }
+        
+        
+              @keyframes jozaja {
+                0% {
+                  margin-right: 5cm;
+                 margin-top: 5cm;
+                 transform: rotate(-30deg);
+                 
+                }
+                100% {
+                  margin-left:0cm;
+                 
+                }}
+      
+
+
+
+                .doha.animat{
+                  Animation-name :papa ;
+                  Animation-delay : 0s ;
+                  Animation-duration : 3s ;
+                  Animation-iteration-count : 1 ;
+                }
+          
+          
+                @keyframes papa {
+                  0% {
+                 background-size: 0px 0px;
+                   
+                  }
+                  100% {
+                   
+                   
+                  }}
+
+
+
+                  h1.balto{
+                    margin-left: 120px;
+                    font-size: 34px;
+                    font-style: normal;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                   margin-top: 2cm;
+                  }
+
+
+                  h1.spon{
+                    font-size: 25px;
+                    float: right;
+                    margin-right: 2cm;
+                    margin-top: 1cm;
+                  }
+                  img.spon{
+                    margin-left: 2cm;
+                    margin-top: 1cm;
+                  }
+                  span.spon{
+                    
+                    font-size: 16px;
+                    color: #000000;
+                 
+                  }
+                  span.bay{
+                    
+                    font-size: 16px;
+                    color: #424141;
+                 
+                  }
+
+                  div.gla{
+                    width: 300px;
+                    height: 80px;
+                    background-color: rgb(255, 255, 255);
+                    margin-top: 1cm;
+                    margin-left: 2cm;
+                  }
+
+
+
+
+                  img.bay{
+                    float: left;
+                    margin-top: 0.4cm;
+                  }
+
+
+
+                  h1.bay{
+                    font-size: 25px;
+                   float: right;
+                   margin-right: 1.35cm;
+                  }
+                  p.bay{
+                    float: left;
+                    margin-top: -0.5cm;
+                    margin-left: 0.4cm;
+                  }
+
+
+
+                  button.but{
+                    margin-top: 0.5cm;
+                    margin-right: 4cm;
+                    margin-left: 3.6cm;
+width: 150px;
+height: 55px;
+font-size: 16px;
+color: #ffffff;
+background-color:rgb(249, 60, 2);
+border-color:rgb(249, 60, 2) ;
+border-radius: 0.5cm;
+                  }
+
+
+
+
+
+                  div.fin{
+                    width: 1000px;
+                    height: 700px;
+                    background-color: #ffffff;
+                    margin-top: 600px;
+                  }
+                  div.moh{
+                    width: 500px;
+                    height: 700px;
+                    background-color: #ffffff;
+                    margin-top: 100px;
+                    float: left;
+                    background-image: url(bgh.PNG);
+                    background-repeat: no-repeat;
+                    background-size:400px 400px ;
+                    background-position:0px 50px;
+                  }
+                  div.moha{
+                    width: 500px;
+                    height: 700px;
+                    background-color: #ffffff;
+                    margin-top: 100px;
+                    float: right;
+                  }
+
+
+h1.gofaa{
+  margin-top: 4cm;
+  text-align: center;
+}
+
+                  img.gofa{
+                    margin-top: 2cm;
+                    margin-left: 100px;
+                  }
+           
+                  .gofa.animat{
+
+                    Animation-name :gofa ;
+                  Animation-delay : 0s ;
+                  Animation-duration : 07s ;
+                  Animation-iteration-count : 1 ;
+                }
+          
+          
+                @keyframes gofa {
+                  0% {
+                    width: 0px;
+                    height: 0px;
+                 opacity: 0;
+                   
+                  }
+                  100% {
+                   
+                   
+                  }}
+
+
+
+
+                  div.maradch{
+                    height: 500px;
+                    margin-top: 200px;
+                    width: 300px;
+                    margin-left: 100px;
+                    border-radius: 0.5cm;
+                    border:5px solid #82954b;
+                    background-color: #ffffff;
+                  }
